@@ -1,10 +1,9 @@
+
 User-agent: *
 Allow: /
 
-# Disallow unwanted system folders (safety)
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
+Disallow: /cgi-bin/
+Disallow: /scripts/
+Disallow: /tmp/
 
-# Sitemap Location
-Sitemap: https://us-en-eng-glycomute.com//sitemap.xml
-Sitemap: https://us-en-eng-glycomute.com//sitemap_index.xml
+Sitemap: https://jeillyforce.vercel.app/sitemap.xml
